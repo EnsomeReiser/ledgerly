@@ -1,17 +1,15 @@
-import styled from 'styled-components';
-import NxWelcome from "./nx-welcome";
+import styled from "styled-components";
 
 const StyledApp = styled.div`
-    // Your style here
+  // Your style here
 `;
 
 export function App() {
   return (
     <StyledApp>
-      <NxWelcome title="@ledgerly/ledgerly"/>
+      <div>Yo</div>
     </StyledApp>
   );
 }
 
 export default App;
-

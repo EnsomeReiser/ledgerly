@@ -8,6 +8,15 @@
     },
     {
       "path": "./apps/ledgerly"
+    },
+    {
+      "path": "./apps/server/api-gateway-e2e"
+    },
+    {
+      "path": "./apps/server/api-gateway"
     }
-  ]
+  ],
+  "compilerOptions": {
+    "strictNullChecks": true
+  }
 }
